@@ -6,13 +6,9 @@
 
 
 def kilometer_conversion(kilometers):    
-    miles = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
+    miles = 0.0    
 
-
-    # Return the variable to the calling function
+miles = kilometers * 0.6214
     return miles
 
 #### This piece of the code has been done for you,
@@ -21,6 +17,4 @@ def kilometer_conversion(kilometers):
 if __name__ == '__main__':
     # Get User Input
     print('in main')
-    # Call kilometer_conversion
     
-    # Display the miles
