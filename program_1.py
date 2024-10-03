@@ -5,7 +5,6 @@ def kilometer_conversion(kilometers):
 if __name__ == '__main__':
     kilometers = float(input("Enter distance in kilometers: "))
     miles = kilometer_conversion(kilometers)
-    print(f"{kilometers} kilometers is equal to {miles} miles.")
-
+    print("It is", miles, "miles")
 
     
